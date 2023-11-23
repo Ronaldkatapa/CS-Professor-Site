@@ -1,0 +1,108 @@
+/* 
+  You don't need to add any styles to complete this project.
+
+  If you want to add styles, you can do so in this file.
+  
+*/
+
+
+
+/* These styles are for the disclaimer -- leave them alone */
+
+.disclaimer {
+  margin: 1em;
+  padding: 4px;
+  border: 1px solid hotpink;
+}
+
+body {
+  background-color: azure;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Poppins;
+
+}
+
+h1{
+  font-size: 30px;
+}
+h2{
+  font-size: 26px;
+  font-size: bold;
+}
+
+.navbar {
+  position: fixed;
+  z-index: 1;
+  background-color: #3a3e6f;
+  width: 100%;
+  color: #fff;
+}
+
+.nav{
+  padding: 20px 15px;
+}
+
+.nav-item {
+  padding: 12px;
+
+  list-style-type: none;
+}
+
+
+
+a {
+  color: rgb(75, 127, 2);
+
+}
+
+ a:hover {
+  color: blue;
+}
+.container{
+  display: flex;
+
+}
+
+.info-sec{
+  z-index: -1;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  color: #fff;
+  background-color: #2c2f34;
+  width: 260px;
+  height: 100vh;
+  padding: 250px 15px;
+}
+
+img {
+  padding: 20px 0px;
+  width: 250px;
+  height: 190px;
+}
+
+.detail-sec{
+  color: black;
+  margin-left: 350px;
+  padding: 250px 15px;
+}
+
+.project-items li {
+  padding: 10px 0;
+}
+
+.tutorials li {
+  padding: 10px 0;
+}
+
+.courses-sec{
+   color: black;
+   width: 500px;
+  padding: 250px 15px;
+}
+
+.office{
+  padding:20px 0;
+}
